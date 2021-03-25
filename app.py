@@ -24,7 +24,6 @@ def hello():
 def number():
     img = image_convert(Image.open(request.files['file'].stream))
     if(np.sum(img)<1.0): return "?, ?"
-    return "99, 99"
     result = pred(img)
     answer = np.argmax(result)
     prob = result[0][answer] * 100.0
