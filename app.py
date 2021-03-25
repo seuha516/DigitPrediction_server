@@ -6,7 +6,6 @@ CORS(app)
 import numpy as np
 import cv2
 from PIL import Image
-from model import *
 
 @app.route("/")
 def hello():
