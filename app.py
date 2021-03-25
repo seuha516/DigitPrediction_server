@@ -1,5 +1,12 @@
-from flask import Flask
-app = Flask(__name__)
+from flask import Flask, request
+from flask_cors import CORS
+app = Flask (__name__)
+CORS(app)
+
+import numpy as np
+import cv2
+from PIL import Image
+from model import *
 
 @app.route("/")
 def hello():
