@@ -4,6 +4,7 @@ app = Flask (__name__)
 CORS(app)
 
 import numpy as np
+import cv2
 
 @app.route("/")
 def hello():
