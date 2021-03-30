@@ -16,4 +16,3 @@
 ## Other
 * [DigitPrediction_client](https://github.com/seuha516/DigitPredcition_client)
 * [Deeplearning Model (Colab)](https://colab.research.google.com/github/seuha516/DigitPrediction_server/blob/main/DigitPrediction.ipynb)
-* [Deploy by Heroku](https://dashboard.heroku.com/apps/digitprediction-server)
