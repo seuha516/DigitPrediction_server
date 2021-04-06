@@ -8,6 +8,7 @@ import cv2
 from PIL import Image
 from model import *
 
+# 28*28 흑백 이미지로 변환
 def image_convert(img):
     img = cv2.cvtColor(np.array(img), cv2.COLOR_BGR2GRAY)
     img = cv2.resize(np.array(img), (28, 28), interpolation=cv2.INTER_AREA)
@@ -16,12 +17,12 @@ def image_convert(img):
     img.reshape((28, 28, 1))
     return img
 
-@app.route('/')
-def hello():
-    return 'Hello!'
+@app.route('/check', methods=['GET'])
+def check():
+    return 'Ready'
 
-@app.route('/number', methods=['POST'])
-def number():
+@app.route('/predict', methods=['POST'])
+def predict():
     img = image_convert(Image.open(request.files['file'].stream))
     if(np.sum(img)<1.0): return "?, ?"
     result = pred(img)
