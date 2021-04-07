@@ -7,7 +7,7 @@
 <img src="https://user-images.githubusercontent.com/79067549/113823710-f0d27380-97b9-11eb-996d-0e180ba92c87.png" width="50%" height="50%">
 
 *****
-## Server
+## BackEnd
 * BackEnd: *Flask*
 * 구현 기능:
   * 이미지 파일을 받아서 흑백 28*28픽셀로 변환
