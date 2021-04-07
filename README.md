@@ -3,7 +3,8 @@
 * [Link To Website](https://digit-prediction-seuha516.netlify.app)
 
 ## Example
-<img src="https://user-images.githubusercontent.com/79067549/112431060-5c601e00-8d82-11eb-9944-34c3da29f99b.PNG" width="30%" height="30%">
+<img src="https://user-images.githubusercontent.com/79067549/113823516-b537a980-97b9-11eb-8953-781943a00802.png" width="20%" height="20%">
+<img src="https://user-images.githubusercontent.com/79067549/113823710-f0d27380-97b9-11eb-996d-0e180ba92c87.png" width="50%" height="50%">
 
 *****
 ## Server
